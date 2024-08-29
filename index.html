@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- netflix name logo -->
+    <img id="logo" src="netflix-logo.png">
+    <!-- loggin border -->
+    <div class="login">
+        <!-- create form -->
+        <form action="content.html">
+            <h1 class="log">Login</h1>
+            <!-- user icon -->
+            <i id="uicon" class="fa-solid fa-user" style="color: white"></i>
+            <!-- user input -->
+            <div class="input">
+                <div class="username">
+                    <input id="username" type="text" placeholder="Enter user name" required >
+                </div>
+                <div class="password">
+                    <!-- lock icon -->
+                    <i id="picon" class="fa-solid fa-lock" style="color: white;"></i>
+                    <!-- password input -->
+                    <input id="password" type="password" placeholder="Enter password" required minlength="8">
+                </div>
+                <!-- remember me check box -->
+                <div class="remember">
+                    <p><input type="checkbox"> Rember me <a href="#">Forgot password</a></p>
+                </div>
+                <!-- login button -->
+                <div class="button">
+                    <button id="log">Login</button>
+                </div>
+                <!-- registring -->
+                <div class="register">
+                    <p>I don't have account <a href="#">Register Now</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<footer>
+    <!-- copy right -->
+    <marquee style="color: white;" id="copy">THIS WEBSITE IS CREATED BY DHANUSH &copy; GOOGLE</marquee>
+</footer>
+</html>

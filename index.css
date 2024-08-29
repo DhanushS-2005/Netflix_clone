@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+/* body of the page */
+body{
+    background-image: url(n\ banner.jpeg);
+}
+/* netflix logo */
+#logo{
+    display: flex;
+    width: 250px;
+    background-color: black;
+    margin-left: 35%;
+    height: 100px;
+    margin-top: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* login border */
+.login{
+    display: flex;
+    margin-left: 35%;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    padding: 100px;
+    padding-bottom: 30px;
+}
+/* login text */
+.log{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    margin-top: -90px;
+    margin-bottom: 10px;
+    
+}
+/* .username input */
+#username{
+    border-radius: 300px;
+    margin-left: -20px;
+    margin-top: 20px;
+    height: 35px;
+    width: 280px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+/* password input */
+#password{
+    border-radius: 300px;
+    margin-left: -20px;
+    margin-top: 20px;
+    height: 35px;
+    width: 280px;
+    padding-left: 20px;
+}
+/* remember me checkbox */
+.remember{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+/* forgot password link */
+.remember a{
+    color: rgb(82, 155, 224);
+}
+/* button border */
+.button{
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+/* button style */
+#log{
+    color: aliceblue;
+    background-color:red;
+    padding: 5px;
+    padding-left: 10px;
+}
+/* button touch */
+#log:hover{
+    color: black;
+}
+/* button click */
+#log:active{
+    background-color: rgb(113, 251, 113);
+}
+/* register text */
+.register{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* register link */
+.register a{
+    color: rgb(82, 155, 224);
+}
+/* username placeholder */
+#username::placeholder{
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 17px;
+}
+/* password placeholder */
+#password::placeholder{
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 17px;
+}
+/* user icon */
+#uicon{
+    position: relative;
+    left: -45px;
+    transform: translateY(50px);
+    font-size: 20px;
+}
+/* password icon */
+#picon{
+    position: relative;
+    left: -45px;
+    transform: translateY(50px);
+    font-size: 20px;
+}
+#copy{
+    background-color: black;
+    margin-top: 80px;
+}
+
+
+
+
+
